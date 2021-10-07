@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB118DE8270F1D9F0081E8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118DE7270F1D9F0081E8B0 /* AppDelegate.swift */; };
+		EB118DEA270F1D9F0081E8B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118DE9270F1D9F0081E8B0 /* SceneDelegate.swift */; };
+		EB118DEC270F1D9F0081E8B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118DEB270F1D9F0081E8B0 /* HomeViewController.swift */; };
+		EB118DEF270F1D9F0081E8B0 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB118DED270F1D9F0081E8B0 /* HomeViewController.storyboard */; };
+		EB118DF1270F1DA00081E8B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB118DF0270F1DA00081E8B0 /* Assets.xcassets */; };
+		EB118DF4270F1DA00081E8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB118DF2270F1DA00081E8B0 /* LaunchScreen.storyboard */; };
+		EB118DFF270F1DA10081E8B0 /* eHealthInnovationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118DFE270F1DA10081E8B0 /* eHealthInnovationTests.swift */; };
+		EB118E0A270F1DA10081E8B0 /* eHealthInnovationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E09270F1DA10081E8B0 /* eHealthInnovationUITests.swift */; };
+		EB118E1A270F1E350081E8B0 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E19270F1E350081E8B0 /* TableView.swift */; };
+		EB118E1C270F1E430081E8B0 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E1B270F1E430081E8B0 /* AlertManager.swift */; };
+		EB118E1E270F1E4C0081E8B0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E1D270F1E4C0081E8B0 /* Extensions.swift */; };
+		EB118E21270F1E960081E8B0 /* PatientInformationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E20270F1E960081E8B0 /* PatientInformationRepository.swift */; };
+		EB118E25270F1EDA0081E8B0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E24270F1EDA0081E8B0 /* NetworkService.swift */; };
+		EB118E27270F1F0E0081E8B0 /* PatientInformationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E26270F1F0E0081E8B0 /* PatientInformationService.swift */; };
+		EB118E29270F1F2D0081E8B0 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E28270F1F2D0081E8B0 /* Patient.swift */; };
+		EB118E33270F1FCF0081E8B0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E32270F1FCF0081E8B0 /* HomeViewModel.swift */; };
+		EB118E35270F20050081E8B0 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E34270F20050081E8B0 /* HomeBuilder.swift */; };
+		EB118E38270F202B0081E8B0 /* PatientNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E36270F202B0081E8B0 /* PatientNameCell.swift */; };
+		EB118E39270F202B0081E8B0 /* PatientNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB118E37270F202B0081E8B0 /* PatientNameCell.xib */; };
+		EB118E3C270F20C60081E8B0 /* PatientSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E3B270F20C60081E8B0 /* PatientSelectedViewController.swift */; };
+		EB118E3E270F20D60081E8B0 /* PatientSelectedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB118E3D270F20D60081E8B0 /* PatientSelectedViewController.storyboard */; };
+		EB118E43270F25ED0081E8B0 /* PatientInformationServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E42270F25ED0081E8B0 /* PatientInformationServiceTest.swift */; };
+		EB118E45270F26080081E8B0 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB118E44270F26080081E8B0 /* HomeViewModelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB118DFB270F1DA10081E8B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB118DDC270F1D9F0081E8B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB118DE3270F1D9F0081E8B0;
+			remoteInfo = eHealthInnovation;
+		};
+		EB118E06270F1DA10081E8B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB118DDC270F1D9F0081E8B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB118DE3270F1D9F0081E8B0;
+			remoteInfo = eHealthInnovation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB118DE4270F1D9F0081E8B0 /* eHealthInnovation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eHealthInnovation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB118DE7270F1D9F0081E8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB118DE9270F1D9F0081E8B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB118DEB270F1D9F0081E8B0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EB118DEE270F1D9F0081E8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeViewController.storyboard; sourceTree = "<group>"; };
+		EB118DF0270F1DA00081E8B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB118DF3270F1DA00081E8B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB118DF5270F1DA00081E8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB118DFA270F1DA10081E8B0 /* eHealthInnovationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eHealthInnovationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB118DFE270F1DA10081E8B0 /* eHealthInnovationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eHealthInnovationTests.swift; sourceTree = "<group>"; };
+		EB118E00270F1DA10081E8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB118E05270F1DA10081E8B0 /* eHealthInnovationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eHealthInnovationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB118E09270F1DA10081E8B0 /* eHealthInnovationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eHealthInnovationUITests.swift; sourceTree = "<group>"; };
+		EB118E0B270F1DA10081E8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB118E19270F1E350081E8B0 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		EB118E1B270F1E430081E8B0 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		EB118E1D270F1E4C0081E8B0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EB118E20270F1E960081E8B0 /* PatientInformationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInformationRepository.swift; sourceTree = "<group>"; };
+		EB118E24270F1EDA0081E8B0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		EB118E26270F1F0E0081E8B0 /* PatientInformationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInformationService.swift; sourceTree = "<group>"; };
+		EB118E28270F1F2D0081E8B0 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		EB118E32270F1FCF0081E8B0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EB118E34270F20050081E8B0 /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		EB118E36270F202B0081E8B0 /* PatientNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientNameCell.swift; sourceTree = "<group>"; };
+		EB118E37270F202B0081E8B0 /* PatientNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientNameCell.xib; sourceTree = "<group>"; };
+		EB118E3B270F20C60081E8B0 /* PatientSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientSelectedViewController.swift; sourceTree = "<group>"; };
+		EB118E3D270F20D60081E8B0 /* PatientSelectedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PatientSelectedViewController.storyboard; sourceTree = "<group>"; };
+		EB118E42270F25ED0081E8B0 /* PatientInformationServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInformationServiceTest.swift; sourceTree = "<group>"; };
+		EB118E44270F26080081E8B0 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB118DE1270F1D9F0081E8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB118DF7270F1DA10081E8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB118E02270F1DA10081E8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB118DDB270F1D9F0081E8B0 = {
+			isa = PBXGroup;
+			children = (
+				EB118DE6270F1D9F0081E8B0 /* eHealthInnovation */,
+				EB118DFD270F1DA10081E8B0 /* eHealthInnovationTests */,
+				EB118E08270F1DA10081E8B0 /* eHealthInnovationUITests */,
+				EB118DE5270F1D9F0081E8B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB118DE5270F1D9F0081E8B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB118DE4270F1D9F0081E8B0 /* eHealthInnovation.app */,
+				EB118DFA270F1DA10081E8B0 /* eHealthInnovationTests.xctest */,
+				EB118E05270F1DA10081E8B0 /* eHealthInnovationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB118DE6270F1D9F0081E8B0 /* eHealthInnovation */ = {
+			isa = PBXGroup;
+			children = (
+				EB118DF5270F1DA00081E8B0 /* Info.plist */,
+				EB118DE7270F1D9F0081E8B0 /* AppDelegate.swift */,
+				EB118DE9270F1D9F0081E8B0 /* SceneDelegate.swift */,
+				EB118E2C270F1F7C0081E8B0 /* Flow */,
+				EB118E2B270F1F5F0081E8B0 /* LaunchScreen */,
+				EB118E2A270F1F3A0081E8B0 /* Model */,
+				EB118E22270F1EAB0081E8B0 /* Service */,
+				EB118E1F270F1E770081E8B0 /* Repository */,
+				EB118E18270F1E210081E8B0 /* Helper */,
+				EB118E17270F1E000081E8B0 /* Supporting Files */,
+			);
+			path = eHealthInnovation;
+			sourceTree = "<group>";
+		};
+		EB118DFD270F1DA10081E8B0 /* eHealthInnovationTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB118DFE270F1DA10081E8B0 /* eHealthInnovationTests.swift */,
+				EB118E3F270F25C50081E8B0 /* Flow */,
+				EB118E41270F25D80081E8B0 /* Service */,
+				EB118E00270F1DA10081E8B0 /* Info.plist */,
+			);
+			path = eHealthInnovationTests;
+			sourceTree = "<group>";
+		};
+		EB118E08270F1DA10081E8B0 /* eHealthInnovationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E09270F1DA10081E8B0 /* eHealthInnovationUITests.swift */,
+				EB118E0B270F1DA10081E8B0 /* Info.plist */,
+			);
+			path = eHealthInnovationUITests;
+			sourceTree = "<group>";
+		};
+		EB118E17270F1E000081E8B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB118DF0270F1DA00081E8B0 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB118E18270F1E210081E8B0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E19270F1E350081E8B0 /* TableView.swift */,
+				EB118E1B270F1E430081E8B0 /* AlertManager.swift */,
+				EB118E1D270F1E4C0081E8B0 /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EB118E1F270F1E770081E8B0 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E20270F1E960081E8B0 /* PatientInformationRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		EB118E22270F1EAB0081E8B0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E23270F1EC20081E8B0 /* NetworkService */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EB118E23270F1EC20081E8B0 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E24270F1EDA0081E8B0 /* NetworkService.swift */,
+				EB118E26270F1F0E0081E8B0 /* PatientInformationService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		EB118E2A270F1F3A0081E8B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E28270F1F2D0081E8B0 /* Patient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB118E2B270F1F5F0081E8B0 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EB118DF2270F1DA00081E8B0 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		EB118E2C270F1F7C0081E8B0 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E2D270F1F820081E8B0 /* Root */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		EB118E2D270F1F820081E8B0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E2E270F1F870081E8B0 /* Home */,
+				EB118E3A270F20730081E8B0 /* PatientSelection */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		EB118E2E270F1F870081E8B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EB118DED270F1D9F0081E8B0 /* HomeViewController.storyboard */,
+				EB118DEB270F1D9F0081E8B0 /* HomeViewController.swift */,
+				EB118E2F270F1F960081E8B0 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EB118E2F270F1F960081E8B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E32270F1FCF0081E8B0 /* HomeViewModel.swift */,
+				EB118E31270F1FAA0081E8B0 /* Builder */,
+				EB118E30270F1F9F0081E8B0 /* Cell */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EB118E30270F1F9F0081E8B0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E36270F202B0081E8B0 /* PatientNameCell.swift */,
+				EB118E37270F202B0081E8B0 /* PatientNameCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EB118E31270F1FAA0081E8B0 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E34270F20050081E8B0 /* HomeBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		EB118E3A270F20730081E8B0 /* PatientSelection */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E3B270F20C60081E8B0 /* PatientSelectedViewController.swift */,
+				EB118E3D270F20D60081E8B0 /* PatientSelectedViewController.storyboard */,
+			);
+			path = PatientSelection;
+			sourceTree = "<group>";
+		};
+		EB118E3F270F25C50081E8B0 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E40270F25CD0081E8B0 /* Root */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		EB118E40270F25CD0081E8B0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E44270F26080081E8B0 /* HomeViewModelTests.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		EB118E41270F25D80081E8B0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EB118E42270F25ED0081E8B0 /* PatientInformationServiceTest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB118DE3270F1D9F0081E8B0 /* eHealthInnovation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB118E0E270F1DA10081E8B0 /* Build configuration list for PBXNativeTarget "eHealthInnovation" */;
+			buildPhases = (
+				EB118DE0270F1D9F0081E8B0 /* Sources */,
+				EB118DE1270F1D9F0081E8B0 /* Frameworks */,
+				EB118DE2270F1D9F0081E8B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eHealthInnovation;
+			productName = eHealthInnovation;
+			productReference = EB118DE4270F1D9F0081E8B0 /* eHealthInnovation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB118DF9270F1DA10081E8B0 /* eHealthInnovationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB118E11270F1DA10081E8B0 /* Build configuration list for PBXNativeTarget "eHealthInnovationTests" */;
+			buildPhases = (
+				EB118DF6270F1DA10081E8B0 /* Sources */,
+				EB118DF7270F1DA10081E8B0 /* Frameworks */,
+				EB118DF8270F1DA10081E8B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB118DFC270F1DA10081E8B0 /* PBXTargetDependency */,
+			);
+			name = eHealthInnovationTests;
+			productName = eHealthInnovationTests;
+			productReference = EB118DFA270F1DA10081E8B0 /* eHealthInnovationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB118E04270F1DA10081E8B0 /* eHealthInnovationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB118E14270F1DA10081E8B0 /* Build configuration list for PBXNativeTarget "eHealthInnovationUITests" */;
+			buildPhases = (
+				EB118E01270F1DA10081E8B0 /* Sources */,
+				EB118E02270F1DA10081E8B0 /* Frameworks */,
+				EB118E03270F1DA10081E8B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB118E07270F1DA10081E8B0 /* PBXTargetDependency */,
+			);
+			name = eHealthInnovationUITests;
+			productName = eHealthInnovationUITests;
+			productReference = EB118E05270F1DA10081E8B0 /* eHealthInnovationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB118DDC270F1D9F0081E8B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EB118DE3270F1D9F0081E8B0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					EB118DF9270F1DA10081E8B0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = EB118DE3270F1D9F0081E8B0;
+					};
+					EB118E04270F1DA10081E8B0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = EB118DE3270F1D9F0081E8B0;
+					};
+				};
+			};
+			buildConfigurationList = EB118DDF270F1D9F0081E8B0 /* Build configuration list for PBXProject "eHealthInnovation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB118DDB270F1D9F0081E8B0;
+			productRefGroup = EB118DE5270F1D9F0081E8B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB118DE3270F1D9F0081E8B0 /* eHealthInnovation */,
+				EB118DF9270F1DA10081E8B0 /* eHealthInnovationTests */,
+				EB118E04270F1DA10081E8B0 /* eHealthInnovationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB118DE2270F1D9F0081E8B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB118DF4270F1DA00081E8B0 /* LaunchScreen.storyboard in Resources */,
+				EB118DF1270F1DA00081E8B0 /* Assets.xcassets in Resources */,
+				EB118E39270F202B0081E8B0 /* PatientNameCell.xib in Resources */,
+				EB118DEF270F1D9F0081E8B0 /* HomeViewController.storyboard in Resources */,
+				EB118E3E270F20D60081E8B0 /* PatientSelectedViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB118DF8270F1DA10081E8B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB118E03270F1DA10081E8B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB118DE0270F1D9F0081E8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB118E35270F20050081E8B0 /* HomeBuilder.swift in Sources */,
+				EB118E27270F1F0E0081E8B0 /* PatientInformationService.swift in Sources */,
+				EB118E33270F1FCF0081E8B0 /* HomeViewModel.swift in Sources */,
+				EB118DEC270F1D9F0081E8B0 /* HomeViewController.swift in Sources */,
+				EB118E21270F1E960081E8B0 /* PatientInformationRepository.swift in Sources */,
+				EB118E25270F1EDA0081E8B0 /* NetworkService.swift in Sources */,
+				EB118E1E270F1E4C0081E8B0 /* Extensions.swift in Sources */,
+				EB118E29270F1F2D0081E8B0 /* Patient.swift in Sources */,
+				EB118E1A270F1E350081E8B0 /* TableView.swift in Sources */,
+				EB118E1C270F1E430081E8B0 /* AlertManager.swift in Sources */,
+				EB118DE8270F1D9F0081E8B0 /* AppDelegate.swift in Sources */,
+				EB118E3C270F20C60081E8B0 /* PatientSelectedViewController.swift in Sources */,
+				EB118DEA270F1D9F0081E8B0 /* SceneDelegate.swift in Sources */,
+				EB118E38270F202B0081E8B0 /* PatientNameCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB118DF6270F1DA10081E8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB118E43270F25ED0081E8B0 /* PatientInformationServiceTest.swift in Sources */,
+				EB118DFF270F1DA10081E8B0 /* eHealthInnovationTests.swift in Sources */,
+				EB118E45270F26080081E8B0 /* HomeViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB118E01270F1DA10081E8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB118E0A270F1DA10081E8B0 /* eHealthInnovationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB118DFC270F1DA10081E8B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB118DE3270F1D9F0081E8B0 /* eHealthInnovation */;
+			targetProxy = EB118DFB270F1DA10081E8B0 /* PBXContainerItemProxy */;
+		};
+		EB118E07270F1DA10081E8B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB118DE3270F1D9F0081E8B0 /* eHealthInnovation */;
+			targetProxy = EB118E06270F1DA10081E8B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB118DED270F1D9F0081E8B0 /* HomeViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB118DEE270F1D9F0081E8B0 /* Base */,
+			);
+			name = HomeViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		EB118DF2270F1DA00081E8B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB118DF3270F1DA00081E8B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB118E0C270F1DA10081E8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB118E0D270F1DA10081E8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB118E0F270F1DA10081E8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ9RJZ3A7D;
+				INFOPLIST_FILE = eHealthInnovation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-Huynh.eHealthInnovation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB118E10270F1DA10081E8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ9RJZ3A7D;
+				INFOPLIST_FILE = eHealthInnovation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-Huynh.eHealthInnovation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB118E12270F1DA10081E8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ9RJZ3A7D;
+				INFOPLIST_FILE = eHealthInnovationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-Huynh.eHealthInnovationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eHealthInnovation.app/eHealthInnovation";
+			};
+			name = Debug;
+		};
+		EB118E13270F1DA10081E8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ9RJZ3A7D;
+				INFOPLIST_FILE = eHealthInnovationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-Huynh.eHealthInnovationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eHealthInnovation.app/eHealthInnovation";
+			};
+			name = Release;
+		};
+		EB118E15270F1DA10081E8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ9RJZ3A7D;
+				INFOPLIST_FILE = eHealthInnovationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-Huynh.eHealthInnovationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eHealthInnovation;
+			};
+			name = Debug;
+		};
+		EB118E16270F1DA10081E8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ9RJZ3A7D;
+				INFOPLIST_FILE = eHealthInnovationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Paul-Huynh.eHealthInnovationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eHealthInnovation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB118DDF270F1D9F0081E8B0 /* Build configuration list for PBXProject "eHealthInnovation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB118E0C270F1DA10081E8B0 /* Debug */,
+				EB118E0D270F1DA10081E8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB118E0E270F1DA10081E8B0 /* Build configuration list for PBXNativeTarget "eHealthInnovation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB118E0F270F1DA10081E8B0 /* Debug */,
+				EB118E10270F1DA10081E8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB118E11270F1DA10081E8B0 /* Build configuration list for PBXNativeTarget "eHealthInnovationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB118E12270F1DA10081E8B0 /* Debug */,
+				EB118E13270F1DA10081E8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB118E14270F1DA10081E8B0 /* Build configuration list for PBXNativeTarget "eHealthInnovationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB118E15270F1DA10081E8B0 /* Debug */,
+				EB118E16270F1DA10081E8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB118DDC270F1D9F0081E8B0 /* Project object */;
+}
